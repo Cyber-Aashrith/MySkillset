@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    margin: 0;
+}
+
+
+
+.REM {
+    font-family: var(--font-roboto-slab);
+    color: #D7BBF5;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills {
+    background: linear-gradient(to right,
+    #ff6b08,#FF4DB6, #eedd44);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+   font-family: var(--font-merriweather);
+   font-weight: 600;
+}
+
+.nav{
+    font-family: var(--font-inter);
+    color: #FCE2DB;
+    margin-left: 5px;
+    font-size: 1.75rem;
+    text-decoration: underline;
+
+}
+
+.SecWor{
+    width:0px;
+    animation: reveal 7s infinite;
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+.submain{
+    font-family: var(--font-noto-sans);
+    color: #EDE4FF;
+    margin-left: 3vw;
+    margin-top: 10vw;
+    font-size: 1.7rem;
+}
+
+@media(max-width: 640px){
+    .Card-text {
+         font-size: 0%;
+    }
+
+    .REM{
+        font-size: 3rem;
+    }
+
+    .nav{
+        font-size: 1.75rem;
+    }
+
+    .submain{
+        margin-top: 12vw;
+        margin-bottom: 10vw;
+    }
+
+}
+
+
+.FC{
+    margin-top: 130px;
+}
+
+.html-btn{
+    color: orangered !important;
+    border-color: orangered !important;
+}
+
+.footer{
+    color: #ACFADF !important;
+    
+}
+
+
+
+
