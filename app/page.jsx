@@ -27,7 +27,7 @@ const page = () => {
       <body>
         <NavBar />
 
-       <p className="REM lg:text-6xl md:text-5xl sm:text-5xl">
+       <p className="REM mx-auto lg:text-6xl md:text-5xl sm:text-5xl">
         <span>My Website To Showcase </span> 
         <br />
         <span className="skills web"><span className="SecWor">The Web Dev Skillset</span> </span>
